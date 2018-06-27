@@ -21,6 +21,7 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > >
+
 ls: list
 pwd: print working directory
 cd: change directory as arg
@@ -54,6 +55,7 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 
+
 ls: list all files and folders in working directory
 ls -a: list all files and folders including hidden 
 ls -l: list all files and folders in long form as a table
@@ -69,6 +71,7 @@ ls -Glp: list all files and folders, inhibiting display of group information, ap
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
+
 -o: long format without group name
 -x: display files as rows across the screen
 -d: display directories only
