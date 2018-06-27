@@ -20,8 +20,26 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> >
+ls: list
+pwd: print working directory
+cd: change directory as arg
+..: go up one directory
+mkdir: make directory as arg
+touch: make file as arg
+ls -a,l,t: list hidden files, list long form, list in time order
+cp: copy arg into arg
+cp: copy multiple files as arg first into folder arg
+mv: move a folder or files as arg to directory arg
+mv: rename file arg to file arg
+rm: remove arg file or folder
+rm -r: remove arg folder and all children
+cat: output contents of file
+wc: output word count of file
+sort: sort lines of text 
+uniq: remove duplicate lines
+grep: find
+sed: find an replace
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,7 +53,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls: list all files and folders in working directory
+ls -a: list all files and folders including hidden 
+ls -l: list all files and folders in long form as a table
+ls -lh: list all files and folders in long form, in human readable format
+ls -lah: list all files and folders, including hidden, in long table form and human readable format
+ls -t: list all files and folders in order of last modified
+ls -Glp: list all files and folders, inhibiting display of group information, append filetype indicator to files
 
 ---
 
@@ -43,7 +68,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+-o: long format without group name
+-x: display files as rows across the screen
+-d: display directories only
+-c: display files by timestamp
+-b: display nonprinting characters in octal
+
 
 ---
 
@@ -51,7 +82,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> >
  
+xargs changes input from an argument to a command. 
 
+you could use it to make multiple folders with different names with one command 
+
+echo "documents pictures videos" | xargs mkdir
+
+you could also use it to find certain files or folders and make changes to them all at once
