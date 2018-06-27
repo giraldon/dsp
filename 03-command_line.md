@@ -1,4 +1,4 @@
-# Learn command line
+# Learn command line #
 
 Please follow and complete the free online [Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/) or [Codecademy's Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line). These are helpful tutorials. You should be able to go through these in a couple of hours.
 
@@ -6,7 +6,7 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 ---
 
-### Q1.  Cheat Sheet of Commands  
+### Q1.  Cheat Sheet of Commands ###  
 
 Here's a list of items with which you should be familiar:  
 * show current working directory path
@@ -22,28 +22,27 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > >
 
-ls: list  
-pwd: print working directory  
-cd: change directory as arg  
-..: go up one directory  
-mkdir: make directory as arg  
-touch: make file as arg  
-ls -a,l,t: list hidden files, list long form, list in time order  
-cp: copy arg into arg  
-cp: copy multiple files as arg first into folder arg  
-mv: move a folder or files as arg to directory arg  
-mv: rename file arg to file arg  
-rm: remove arg file or folder  
-rm -r: remove arg folder and all children  
-cat: output contents of file  
-wc: output word count of file  
-sort: sort lines of text   
-uniq: remove duplicate lines  
-grep: find  
-sed: find and replace  
----
+**ls**: list  
+**pwd**: print working directory  
+**cd**: change directory as arg  
+**..**: go up one directory  
+**mkdir**: make directory as arg  
+**touch**: make file as arg  
+**ls** -a,l,t: list hidden files, list long form, list in time order  
+**cp**: copy arg into arg  
+**cp**: copy multiple files as arg first into folder arg  
+**mv**: move a folder or files as arg to directory arg  
+**mv**: rename file arg to file arg  
+**rm**: remove arg file or folder  
+**rm** -r: remove arg folder and all children  
+**cat**: output contents of file  
+**wc**: output word count of file  
+**sort**: sort lines of text   
+**uniq**: remove duplicate lines  
+**grep**: find  
+**sed**: find and replace  
 
-### Q2.  List Files in Unix   
+### Q2.  List Files in Unix ###   
 
 What do the following commands do:  
 `ls`  
@@ -56,37 +55,36 @@ What do the following commands do:
 
 > > 
 
-ls: list all files and folders in working directory  
-ls -a: list all files and folders including hidden  
-ls -l: list all files and folders in long form as a table  
-ls -lh: list all files and folders in long form, in human readable format  
-ls -lah: list all files and folders, including hidden, in long table form and human readable format  
-ls -t: list all files and folders in order of last modified  
-ls -Glp: list all files and folders, inhibiting display of group information, append filetype indicator to files  
+**ls**: list all files and folders in working directory  
+**ls -a**: list all files and folders including hidden  
+**ls -l**: list all files and folders in long form as a table  
+**ls -lh**: list all files and folders in long form, in human readable format  
+**ls -lah**: list all files and folders, including hidden, in long table form and human readable format  
+**ls -t**: list all files and folders in order of last modified  
+**ls -Glp**: list all files and folders, inhibiting display of group information, append filetype indicator to files  
 
 ---
 
-### Q3.  More List Files in Unix  
+### Q3.  More List Files in Unix ###  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
 
--o: long format without group name  
--x: display files as rows across the screen  
--d: display directories only  
--c: display files by timestamp  
--b: display nonprinting characters in octal  
-
+**-o**: long format without group name  
+**-x**: display files as rows across the screen  
+**-d**: display directories only  
+**-c**: display files by timestamp  
+**-b**: display nonprinting characters in octal  
 
 ---
 
-### Q4.  Xargs   
+### Q4.  Xargs ###   
 
 What does `xargs` do? Give an example of how to use it.
 
 > >  
- 
+
 xargs changes input from an argument to a command.  
 
 you could use it to make multiple folders with different names with one command  
